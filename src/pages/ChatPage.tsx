@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Send, Mic, MicOff, Trash2, Download, Bot, User, Sparkles, ChevronRight } from "lucide-react";
 import Layout from "@/components/Layout";
 import { allEvents } from "@/data/events";
-import { instituteInfo, faculty as fallbackFaculty, programs } from "@/data/institute";
+import { instituteInfo, faculty as fallbackFaculty, programs, placements } from "@/data/institute";
 import { seniors, getSeniorByName, searchSeniors } from "@/data/seniors";
 import { loadCampusData, type CampusData } from "@/lib/campusData";
 import { queryStudentsByProgram, queryAllStudents, isDbAvailable } from "@/lib/campusDb";
@@ -20,7 +20,7 @@ const suggestedQuestions = [
   "Who are the seniors specializing in AI/ML?",
   "List faculty and their expertise",
   "Which events allow AI tools?",
-  "Who is Shravan Goswami?",
+  "Recent placement companies",
   "List all students in CSE",
   "Events under ₹100",
 ];
@@ -156,7 +156,7 @@ async function getAIResponse(query: string, campus: CampusData | null): Promise<
           if (senior.company) response += `**Company/Organization:** ${senior.company}\n`;
           response += `\n**Focus Areas:**\n${senior.focus.map(f => `- ${f}`).join('\n')}\n`;
           response += `\n**Key Skills:**\n${senior.skills.slice(0, 15).join(', ')}${senior.skills.length > 15 ? '...' : ''}\n`;
-          
+
           if (senior.experience.length > 0) {
             response += `\n**Experience:**\n`;
             senior.experience.forEach(exp => {
@@ -164,28 +164,28 @@ async function getAIResponse(query: string, campus: CampusData | null): Promise<
               response += `  ${exp.description}\n`;
             });
           }
-          
+
           if (senior.projects.length > 0) {
             response += `\n**Notable Projects:**\n`;
             senior.projects.forEach(proj => {
               response += `- **${proj.name}**: ${proj.description}\n`;
             });
           }
-          
+
           if (senior.achievements && senior.achievements.length > 0) {
             response += `\n**Achievements:**\n${senior.achievements.map(a => `- ${a}`).join('\n')}\n`;
           }
-          
+
           response += `\n**Bio:** ${senior.bio}`;
           return response;
         }
       }
     }
-    
+
     // List all seniors or seniors by skill/focus
     if (/list|all|show|who are/i.test(q)) {
       let results = seniors;
-      
+
       // Filter by skill/focus area if specified
       if (/ai|ml|machine learning|artificial intelligence/i.test(q)) {
         results = searchSeniors("machine learning artificial intelligence");
@@ -198,11 +198,11 @@ async function getAIResponse(query: string, campus: CampusData | null): Promise<
       } else if (/cyber.?security|security/i.test(q) && !q.includes("student")) {
         results = searchSeniors("cybersecurity");
       }
-      
+
       if (results.length === 0) {
         return "No seniors found matching your criteria. Try asking about specific skills or names.";
       }
-      
+
       let response = `## Senior Students (${results.length} found)\n\n`;
       results.forEach(senior => {
         response += `### ${senior.name}\n`;
@@ -212,17 +212,17 @@ async function getAIResponse(query: string, campus: CampusData | null): Promise<
         if (senior.company) response += `**Company:** ${senior.company}\n`;
         response += `\n`;
       });
-      
+
       response += `\n_Ask "Tell me about [name]" for detailed information about any senior._`;
       return response;
     }
-    
+
     // Skills/Projects query
     if (/skills|expertise|projects|experience/i.test(q) && extractedName) {
       const senior = getSeniorByName(extractedName);
       if (senior) {
         let response = `## ${senior.name}'s `;
-        
+
         if (/skills|expertise/i.test(q)) {
           response += `Skills & Expertise\n\n`;
           response += `**Technical Skills:**\n${senior.skills.join(', ')}\n\n`;
@@ -239,12 +239,12 @@ async function getAIResponse(query: string, campus: CampusData | null): Promise<
             response += `${exp.description}\n\n`;
           });
         }
-        
+
         return response;
       }
     }
   }
-  
+
   if (programName) {
     try {
       if (await isDbAvailable()) {
@@ -408,6 +408,13 @@ async function getAIResponse(query: string, campus: CampusData | null): Promise<
     return result;
   }
 
+  // Placements
+  if (q.includes("placement") || q.includes("company") || q.includes("companies") || q.includes("recruited") || q.includes("hiring") || q.includes("recruiter")) {
+    if (placements.length === 0) return "No placement data available at the moment.";
+    const list = placements.map(p => `- **${p.company}**\n  Roles: ${p.roles}\n  Date: ${p.date}`).join("\n\n");
+    return `## Recent Placements at AMTICS\n\n${list}\n\n_Data from September 2025 placement drive. Visit the Magazine & Placements page for more details._`;
+  }
+
   // Admission
   if (q.includes("admission") || q.includes("eligib") || q.includes("apply")) {
     return `## Admission to AMTICS\n\n**Routes:** ${instituteInfo.admissionRoute.join(", ")}\n**Eligibility:** ${instituteInfo.eligibility}\n\nVisit the institute page for more details!`;
@@ -453,7 +460,7 @@ async function getAIResponse(query: string, campus: CampusData | null): Promise<
   }
 
   // Default
-  return `I'm the AMTICS Smart Campus AI Assistant! I can help you with:\n\n- 🏛️ **Institute Information** — overview, faculty, facilities\n- 🎓 **Academic Programs** — B.Tech, M.Tech details & fees\n- 🏆 **TecXplore Events** — rules, fees, judging criteria\n- 🔍 **Smart Filtering** — find events by budget, type, team size\n- 📊 **Event Comparison** — compare any two events\n\nTry asking: *"What events are under ₹100?"* or *"Tell me about the Chatbot Challenge"*`;
+  return `I'm the AMTICS Smart Campus AI Assistant! I can help you with:\n\n- 🏛️ **Institute Information** — overview, faculty, facilities\n- 🎓 **Academic Programs** — B.Tech, M.Tech details & fees\n- 🏆 **TecXplore Events** — rules, fees, judging criteria\n- � **Placement Companies** — recent recruitment drives\n- 🔍 **Smart Filtering** — find events by budget, type, team size\n- 📊 **Event Comparison** — compare any two events\n\nTry asking: *"Recent placement companies"* or *"What events are under ₹100?"*`;
 }
 
 export default function ChatPage() {
