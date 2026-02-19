@@ -1,0 +1,178 @@
+Senior Info
+Manas Patil is a Computer Science Engineering student and Full-Stack Developer who primarily
+works with the MERN stack (MongoDB, Express, React, Node.js) and modern JavaScript tools.
+He has hands-on experience building real-world web and mobile applications and is currently
+exploring Artificial Intelligence and Machine Learning to expand into intelligent software
+solutions.
+He completed a Frontend Developer Internship at Kintu Designs (Feb–Jul 2024) where he:
+Migrated a health-club SaaS platform to React
+Built a full admin dashboard
+Focused on improving UX, performance, and efficiency
+
+💻 Core Technical Strengths
+Frontend: React, JavaScript, TypeScript, HTML, CSS, Tailwind, Bootstrap, Material UI
+Backend: Node.js, Express.js, REST APIs
+Databases: MongoDB, MySQL
+Languages: Python, Java, C, C++
+Tools: Git, GitHub, Netlify, VS Code, Postman, Figma
+Data/AI libraries: Pandas, NumPy, Scikit-learn
+
+🚀 Notable Projects
+FlyUpload: Full MERN cloud media platform with authentication and video compression using
+Cloudinary
+NoteDash: Full-stack notes management app (CRUD + authentication)
+Express News: News app with API integration and dark/light mode
+Android Language Translator: Text + speech translation using Firebase APIs
+
+Portfolio Website: Built with React, Vite, EmailJS and deployed on Netlify
+
+🎯 Overall Profile Snapshot
+A junior full-stack developer with internship experience, strong fundamentals in modern web
+development, and growing intere hust in AI/ML-driven applications.
+
+Shravan Goswami is a Computer Science Engineering student at Uka Tarsadia University
+(2022–2026) with strong research and development experience in Probabilistic Machine
+Learning, Cybersecurity, and Open-Source Software. He actively contributes to the Julia
+scientific computing ecosystem and works on building scalable tools for Bayesian inference and
+scientific computing.
+He worked as a Remote Research Assistant at the Machine Learning Group, University of
+Cambridge (May 2024 – Present) where he:
+Built visualization tools for probabilistic programming (MCMCChains.jl).
+Developed and maintained the Turing Ecosystem and ML Group websites.
+Automated publication website generation using BibTeX, Python and Quarto.
+Built GitHub Actions for documentation automation and contributed to DynamicPPL
+benchmarking.
+
+He was also a Google Summer of Code 2025 Contributor (The Julia Language) where he:
+Engineered a full-stack graphical interface for the BUGS probabilistic programming language.
+
+Additionally, he completed a Cyber Security Internship at NTRO (Apr – Nov 2025) where he:
+Built C# and PowerShell automation scripts for system hardening.
+
+He has also worked as a Technical Content Writer at GeeksforGeeks, publishing 23+ technical
+articles.
+
+---
+
+💻 Core Technical Strengths
+Languages: C++, Python, Julia, JavaScript, TypeScript, HTML, CSS, Bash
+Frameworks & Libraries: Django, Vue.js, Flutter, Turing.jl ecosystem, Quarto
+Tools: Git, GitHub Actions, Docker, VS Code, Sublime Text
+Research Focus: Probabilistic Programming, Bayesian Deep Learning, Scientific Computing
+
+---
+
+🚀 Notable Projects
+DoodleBUGS: Browser-based graphical interface for creating probabilistic models with code
+generation and visualization.
+MLG Cambridge Website & Publication System: Automated BibTeX-driven publication system
+and official ML Group website.
+Turing.jl Website & Docs Automation: Maintainer of official site and creator of reusable GitHub
+Actions for documentation.
+Windows GPO Manager (Smart India Hackathon): Security tool aligned with CIS benchmarks
+(Finalist project).
+Social Media Web App: Django-based app with authentication, posts, likes and comments.
+Portfolio & Blog Website: Astro-based personal website with technical articles.
+
+---
+
+🏆 Achievements Snapshot
+Google Summer of Code 2025 Contributor
+Smart India Hackathon 2024 Finalist
+UTU Shark Tank Winner (2023 & 2025)
+Codeforces Pupil Rating (Max 1247)
+State-level International Mathematical Olympiad Gold Medal
+
+---
+
+🎯 Overall Profile Snapshot
+A research-driven software developer and open-source contributor with strong experience in
+probabilistic machine learning, cybersecurity, and full-stack development, focused on building
+tools for scientific computing and Bayesian inference.
+
+Ayaan shaikh:I am a B.Tech Computer Science student with a CGPA of 9.4 and a strong academic foundation
+in Artificial Intelligence, Machine Learning, and Full Stack Development. I have hands-on
+experience building MERN stack applications and integrating modern AI models into real-world
+systems.
+I have previously conducted a technical session on Retrieval-Augmented Generation (RAG) Bot
+Development, where I demonstrated how to build intelligent chatbots using vector databases,
+embeddings, and LLM integration for context-aware responses.
+Currently, I am involved in research focused on Computer Vision and Deep Learning, where I
+work on applied AI problems and model-based experimentation.
+As the Vice Chair of the ACM Student Chapter, I actively lead technical initiatives, mentor peers,
+and organize knowledge-driven workshops. Through this Chatbot Creation Workshop, I aim to
+simplify AI-powered chatbot development and guide students in building practical, scalable
+conversational systems from scratch.
+
+Abdulkadir Shaikh is a second-year student and founder of Civveo, focusing on building
+scalable digital solutions using Flutter and the MERN stack. He specializes in creating
+hyperlocal and scalable applications, combining mobile and web technologies to develop
+modern, user-centric products and platforms.
+
+---
+
+💻 Core Technical Strengths
+Primary Focus: Flutter development and MERN stack applications
+
+Specialization: Building scalable and hyperlocal digital solutions
+Entrepreneurship: Founder of Civveo, working on product-driven solutions and startup-style
+development
+
+---
+
+🚀 Work & Focus Areas
+Civveo (Founder)
+Building hyperlocal technology solutions
+Architecting scalable mobile and web applications
+Working on product-oriented development and innovation
+
+---
+
+🎯 Overall Profile Snapshot
+A student entrepreneur and developer focused on Flutter and MERN stack technologies,
+actively building scalable startup-style solutions and hyperlocal applications through his venture
+Civveo.
+
+Pratham Khatri is a Computer Science Engineering undergraduate at Uka Tarsadia University
+(2024–2028) and an aspiring AI Engineer with a strong foundation in machine learning, neural
+networks, and prompt engineering. He is passionate about designing ethical and intuitive AI
+systems and aims to build impactful, real-world AI solutions by combining technical excellence
+with responsible innovation. His academic journey includes a CGPA of 8.80 in his second
+semester, along with strong school performance in both secondary and higher secondary
+education.
+
+---
+
+💻 Core Technical Strengths
+Languages: C, Python, JavaScript, HTML, CSS, Shell/Bash, React.js, Node.js
+
+Frameworks & Libraries: NumPy, Pandas, Matplotlib, PyTorch, OpenAI API
+Tools: Git, VS Code, Jupyter Notebook, Prompt Engineering
+Research Focus: Large Language Models, Retrieval-Augmented Generation (RAG), Machine
+Learning, Deep Learning
+
+---
+
+🚀 Notable Projects
+AI Study Mentor: RAG-based study assistant built using Groq Llama 3.3 70B and Streamlit that
+allows students to upload notes/PDFs and receive summaries, explanations, and quizzes via a
+chat interface.
+FitBook – Tailoring Shop App: Cross-platform app for managing customer measurements,
+orders, billing, and records to digitize traditional tailoring workflows.
+Test Score Predictor: Streamlit application using Linear Regression to predict student scores
+based on study hours with accuracy tracking and history logging.
+
+---
+
+📜 Certifications
+Basics of Prompt Engineering (Alison)
+Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate
+
+---
+
+🎯 Overall Profile Snapshot
+An early-stage AI enthusiast focused on Generative AI, LLMs, and RAG-based applications,
+actively building projects and strengthening his technical skills to grow into a professional AI
+engineer.
+
+

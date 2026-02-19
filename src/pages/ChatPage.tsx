@@ -4,6 +4,7 @@ import { Send, Mic, MicOff, Trash2, Download, Bot, User, Sparkles, ChevronRight 
 import Layout from "@/components/Layout";
 import { allEvents } from "@/data/events";
 import { instituteInfo, faculty as fallbackFaculty, programs } from "@/data/institute";
+import { seniors, getSeniorByName, searchSeniors } from "@/data/seniors";
 import { loadCampusData, type CampusData } from "@/lib/campusData";
 import { queryStudentsByProgram, queryAllStudents, isDbAvailable } from "@/lib/campusDb";
 import ReactMarkdown from "react-markdown";
@@ -15,13 +16,13 @@ interface Message {
 
 const suggestedQuestions = [
   "What events are available at TecXplore 3.0?",
-  "Who are enrolled in cyber security program?",
+  "Tell me about Manas Patil",
+  "Who are the seniors specializing in AI/ML?",
   "List faculty and their expertise",
   "Which events allow AI tools?",
-  "Who is the director of AMTICS?",
+  "Who is Shravan Goswami?",
   "List all students in CSE",
   "Events under ₹100",
-  "Students enrolled in machine learning",
 ];
 
 async function getAIResponse(query: string, campus: CampusData | null): Promise<string> {
@@ -137,6 +138,113 @@ async function getAIResponse(query: string, campus: CampusData | null): Promise<
   };
 
   const programName = extractProgramFromQuery(query);
+
+  // ===== SENIORS INFORMATION QUERIES =====
+  // Check for senior-related queries (who is X, tell me about X, seniors in AI/ML, etc.)
+  if (/senior|manas|shravan|ayaan|abdulkadir|pratham|civveo|cambridge|google summer of code|gsoc|acm|vice chair/i.test(q)) {
+    // Specific senior by name
+    if (/who is|tell me about|information about|details of|profile of/i.test(q)) {
+      const extractedSeniorName = extractNameFromQuery(query);
+      if (extractedSeniorName) {
+        const senior = getSeniorByName(extractedSeniorName);
+        if (senior) {
+          let response = `## ${senior.name}\n\n`;
+          response += `**Role:** ${senior.role}\n`;
+          response += `**Branch:** ${senior.branch}\n`;
+          response += `**Year:** ${senior.year}\n`;
+          if (senior.cgpa) response += `**CGPA:** ${senior.cgpa}\n`;
+          if (senior.company) response += `**Company/Organization:** ${senior.company}\n`;
+          response += `\n**Focus Areas:**\n${senior.focus.map(f => `- ${f}`).join('\n')}\n`;
+          response += `\n**Key Skills:**\n${senior.skills.slice(0, 15).join(', ')}${senior.skills.length > 15 ? '...' : ''}\n`;
+          
+          if (senior.experience.length > 0) {
+            response += `\n**Experience:**\n`;
+            senior.experience.forEach(exp => {
+              response += `- **${exp.role}** at ${exp.company}${exp.duration ? ` (${exp.duration})` : ''}\n`;
+              response += `  ${exp.description}\n`;
+            });
+          }
+          
+          if (senior.projects.length > 0) {
+            response += `\n**Notable Projects:**\n`;
+            senior.projects.forEach(proj => {
+              response += `- **${proj.name}**: ${proj.description}\n`;
+            });
+          }
+          
+          if (senior.achievements && senior.achievements.length > 0) {
+            response += `\n**Achievements:**\n${senior.achievements.map(a => `- ${a}`).join('\n')}\n`;
+          }
+          
+          response += `\n**Bio:** ${senior.bio}`;
+          return response;
+        }
+      }
+    }
+    
+    // List all seniors or seniors by skill/focus
+    if (/list|all|show|who are/i.test(q)) {
+      let results = seniors;
+      
+      // Filter by skill/focus area if specified
+      if (/ai|ml|machine learning|artificial intelligence/i.test(q)) {
+        results = searchSeniors("machine learning artificial intelligence");
+      } else if (/flutter|mobile/i.test(q)) {
+        results = searchSeniors("flutter mobile");
+      } else if (/mern|full.?stack|web development/i.test(q)) {
+        results = searchSeniors("mern full-stack");
+      } else if (/research|cambridge|gsoc/i.test(q)) {
+        results = searchSeniors("research");
+      } else if (/cyber.?security|security/i.test(q) && !q.includes("student")) {
+        results = searchSeniors("cybersecurity");
+      }
+      
+      if (results.length === 0) {
+        return "No seniors found matching your criteria. Try asking about specific skills or names.";
+      }
+      
+      let response = `## Senior Students (${results.length} found)\n\n`;
+      results.forEach(senior => {
+        response += `### ${senior.name}\n`;
+        response += `**Role:** ${senior.role}\n`;
+        response += `**Focus:** ${senior.focus.slice(0, 3).join(', ')}\n`;
+        response += `**Key Skills:** ${senior.skills.slice(0, 8).join(', ')}...\n`;
+        if (senior.company) response += `**Company:** ${senior.company}\n`;
+        response += `\n`;
+      });
+      
+      response += `\n_Ask "Tell me about [name]" for detailed information about any senior._`;
+      return response;
+    }
+    
+    // Skills/Projects query
+    if (/skills|expertise|projects|experience/i.test(q) && extractedName) {
+      const senior = getSeniorByName(extractedName);
+      if (senior) {
+        let response = `## ${senior.name}'s `;
+        
+        if (/skills|expertise/i.test(q)) {
+          response += `Skills & Expertise\n\n`;
+          response += `**Technical Skills:**\n${senior.skills.join(', ')}\n\n`;
+          response += `**Focus Areas:**\n${senior.focus.map(f => `- ${f}`).join('\n')}`;
+        } else if (/projects/i.test(q)) {
+          response += `Projects\n\n`;
+          senior.projects.forEach(proj => {
+            response += `**${proj.name}**\n${proj.description}\n\n`;
+          });
+        } else if (/experience/i.test(q)) {
+          response += `Experience\n\n`;
+          senior.experience.forEach(exp => {
+            response += `**${exp.role}** at ${exp.company}${exp.duration ? ` (${exp.duration})` : ''}\n`;
+            response += `${exp.description}\n\n`;
+          });
+        }
+        
+        return response;
+      }
+    }
+  }
+  
   if (programName) {
     try {
       if (await isDbAvailable()) {

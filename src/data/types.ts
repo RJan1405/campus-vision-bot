@@ -51,3 +51,26 @@ export interface StudentRecord {
   elective2: string;
   industrialPractice: string;
 }
+
+export interface SeniorProfile {
+  name: string;
+  branch: string;
+  year: string;
+  role: string;
+  cgpa?: string;
+  company?: string;
+  focus: string[];
+  skills: string[];
+  projects: Array<{
+    name: string;
+    description: string;
+  }>;
+  experience: Array<{
+    role: string;
+    company: string;
+    duration: string;
+    description: string;
+  }>;
+  achievements: string[];
+  bio: string;
+}
