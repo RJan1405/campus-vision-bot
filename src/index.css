@@ -60,6 +60,53 @@
     --shadow-neon-strong: 0 0 40px hsl(185 100% 50% / 0.25);
     --shadow-card: 0 8px 32px hsl(0 0% 0% / 0.3);
   }
+
+  .light {
+    --background: 0 0% 98%;
+    --foreground: 220 20% 10%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 20% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 20% 10%;
+
+    --primary: 185 80% 45%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 220 10% 94%;
+    --secondary-foreground: 220 20% 10%;
+
+    --muted: 220 10% 92%;
+    --muted-foreground: 220 10% 40%;
+
+    --accent: 185 70% 50%;
+    --accent-foreground: 220 20% 10%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 220 10% 88%;
+    --input: 220 10% 88%;
+    --ring: 185 80% 45%;
+
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 220 20% 10%;
+    --sidebar-primary: 185 80% 45%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 220 10% 94%;
+    --sidebar-accent-foreground: 220 20% 10%;
+    --sidebar-border: 220 10% 88%;
+    --sidebar-ring: 185 80% 45%;
+
+    /* Custom tokens for light mode */
+    --glass: 0 0% 100%;
+    --glass-border: 220 10% 85%;
+
+    --shadow-neon: 0 0 20px hsl(185 80% 45% / 0.2);
+    --shadow-neon-strong: 0 0 40px hsl(185 80% 45% / 0.3);
+    --shadow-card: 0 8px 32px hsl(220 10% 10% / 0.1);
+  }
 }
 
 @layer base {
@@ -72,18 +119,23 @@
     font-family: 'Inter', sans-serif;
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     font-family: 'Space Grotesk', sans-serif;
   }
 }
 
 @layer utilities {
   .glass {
-    @apply bg-card/60 backdrop-blur-xl border border-glass-border;
+    @apply bg-card/60 backdrop-blur-xl border border-border/50;
   }
 
   .glass-strong {
-    @apply bg-card/80 backdrop-blur-2xl border border-glass-border;
+    @apply bg-card/80 backdrop-blur-2xl border border-border/70;
   }
 
   .neon-glow {
@@ -121,13 +173,27 @@
   }
 
   @keyframes float {
-    0%, 100% { transform: translateY(0px); }
-    50% { transform: translateY(-10px); }
+
+    0%,
+    100% {
+      transform: translateY(0px);
+    }
+
+    50% {
+      transform: translateY(-10px);
+    }
   }
 
   @keyframes pulse-neon {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0.7; }
+
+    0%,
+    100% {
+      opacity: 1;
+    }
+
+    50% {
+      opacity: 0.7;
+    }
   }
 
   .animate-pulse-neon {
@@ -141,14 +207,14 @@
 }
 
 ::-webkit-scrollbar-track {
-  background: hsl(220 20% 4%);
+  background: hsl(var(--background));
 }
 
 ::-webkit-scrollbar-thumb {
-  background: hsl(220 15% 20%);
+  background: hsl(var(--border));
   border-radius: 3px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: hsl(185 100% 50% / 0.5);
+  background: hsl(var(--primary) / 0.5);
 }

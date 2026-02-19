@@ -1,0 +1,1091 @@
+TECHNICAL EVENTS
+CORE MEMBERS
+Jay Mendapara (1ST Year) - 9909657666
+Disha Panjwani (2ND Year) - 9313322816
+Jenishrai Patel (3RD Year) - 9727894255
+Yasvi Chokhawala (4TH Year) – 9879122058
+
+FACULTY COORDINATOR
+Ankur Sir
+
+EVENT HEAD
+Sarthak Yerpude (2nd Year) - 9359990884
+
+COORDINATORS
+Neha Bhanushali (9408810123) - Figma
+Ramchandra Margaj (9104912265)
+Alfisha Ansari (7990120715)
+Mann Patel (9313471482) – Tech Olympic
+Sarthak Yerpude (9359990884) - CTF
+Kashish Pandey (9023540574)
+AbdulKadir Shaikh (7434043381) - Chatbot
+Pratham Khatri (90671572320)
+
+Nishad Nakrani (7043441460) – The Reverse Challenge
+Niyati Mangela (9274081017)
+
+FIGMA-FORGE
+Synopsis
+Participants are given a problem statement. Within a limited time, they create wireframes,
+UI screens, or prototypes using Figma. The designs are judged on creativity, usability,
+layout, color scheme, and user experience.
+
+Rules and regulations
+•
+•
+•
+•
+•
+•
+•
+
+All work must be original and authored by the participant
+Use of third-party assets (images, fonts, icons, etc.) is allowed only if properly licensed or
+free for commercial use.
+Copying from existing designs will result in disqualification
+AI-generated content is prohibited competition rules require purely human-created
+work.
+All entries must be submitted before the deadline specified in the competition
+announcement.
+Templates or designs created before the competition start time are not permitted unless
+explicitly allowed
+Hidden or unauthorized collaborators must not contribute during the competition.
+
+Judging Criteria
+•
+•
+•
+•
+•
+•
+•
+
+Creativity & Innovation– Original ideas and unique design approach
+UI Design (Visual Appeal)– Colour scheme, typography, spacing, and consistency
+User Experience (UX)– Ease of use, logical flow, and user-friendly navigation
+Problem Understanding– How well the design solves the given problem statement
+Functionality & Layout– Proper alignment, structure, and screen hierarchy
+Time Management – Completion within the given time frame
+Overall Presentation.
+
+Registration Fee: ₹70 Per participant
+
+CHATBOT
+Synopsis
+Participants are provided with a problem statement or use case. Using programming
+languages, frameworks, or no-code platforms, they build a chatbot that can understand
+user queries and respond intelligently. The chatbot is evaluated based on functionality,
+accuracy, user experience, innovation, and technical implementation.
+
+Rules and regulation
+•
+•
+•
+•
+•
+•
+•
+•
+
+Clearly inform users that they are interacting with a chatbot (AI), not a human.
+Collect only necessary user data and obtain explicit user consent.
+Publish a clear and accessible Privacy Policy and Terms of Service.
+Include content moderation and safety filters.
+Respect intellectual property and copyright laws.
+Avoid misleading, deceptive, or manipulative responses.
+Ensure the chatbot is accessible to users with disabilities.
+2min and 3max members per team.
+
+Judging Criteria
+•
+•
+•
+•
+•
+•
+
+Problem Understanding & Use Case– Relevance of the chatbot to the given problem
+statement
+Functionality & Accuracy – Correct responses, logic flow, and error handling
+Innovation & Creativity – Unique features, smart ideas, or advanced capabilities
+Performance & Reliability – Speed, stability, and consistency of responses
+Presentation & Demonstration -Explanation of working, features, and live demo quality
+Time Management– Completion within the given time limit
+
+Registration Fee: ₹100 Per team
+
+TECH OLYMPIC
+Event 1: Error (fix the code)
+About the Event
+Fix the Code is a technical event designed to test logical thinking and programming
+fundamentals. Participants will be provided with pre-written code snippets containing
+intentional bugs (syntax, logical, or runtime errors). The goal is to manually identify and
+correct these errors so the program executes successfully and produces the exact expected
+output within the time limit.
+
+Rules & Regulations
+Format: Individual participation only.
+
+•
+•
+•
+•
+•
+
+The Task: Participants must manually debug pre-written code. The specific programming
+language will be announced prior to the event.
+Strict Prohibitions: No Internet access, No AI tools, and no external help.
+Submission: Only successfully running programs with the correct output will be
+evaluated.
+Malpractice: Any form of plagiarism or unfair means will lead to immediate
+disqualification.
+Authority: The organizers’ decision is final and binding.
+
+Judging Criteria
+•
+•
+•
+•
+
+Output Accuracy: The program must run without errors and match the expected result
+exactly.
+Code Correctness: Errors must be properly identified and fixed.
+Time Efficiency: Faster correct solutions receive higher priority.
+Code Quality: Clean fixes with minimal changes to the original code are preferred.
+
+Event 2: code sprint
+About the Event
+Code Sprint is a fast-paced programming challenge designed to test your coding speed and
+problem-solving efficiency. Participants will face multiple coding problems that must be
+solved individually. The focus is on writing clean, executable logic to produce the correct
+output within a strict time limit.
+
+Rules & Regulations
+•
+•
+•
+•
+•
+•
+•
+
+Format: Individual participation only.
+The Task: Participants must solve multiple coding problems within the allotted time. The
+specific programming language will be announced prior to the event.
+Strict Prohibitions: No Internet access, No AI tools, and No external assistance.
+Execution: All code must be written and executed solely by the participant.
+Submission: Only successfully executed programs will be evaluated.
+Disqualification: Any form of malpractice or plagiarism will result in immediate
+disqualification.
+Authority: The decision of the judges and organizers is final.
+
+Judging Criteria
+•
+•
+•
+•
+•
+
+Problems Solved: The total number of problems correctly solved.
+Output Accuracy: The output must exactly match the expected result.
+Time Efficiency: Faster solutions with correct outputs are prioritized.
+Logical Approach: Use of proper and efficient logic to solve the problem.
+Error Handling: Code should run smoothly with minimal errors during execution.
+
+Event 3: Code War: The Ultimate Showdown
+About the Event
+Code War is the brutal finale of the Tech Olympics. It tests not just your coding skills, but
+your adaptability, teamwork, and competitive instinct under pressure.
+This event features a unique "Ally-to-Enemy" format. Participants who cleared Round 2 will be
+formed into random teams on the spot to compete in a high-level challenge. The winning team
+advances... but there is a twist. In the final moments, the members of the winning team must
+turn against each other in a Solo Deathmatch to crown the one true Champion of the Tech
+Olympics.
+
+Event Flow
+Phase 1: The Alliance (Team Round)
+Qualifiers from Round 2 are grouped into teams via a Random Chit/Lottery System.
+Team sizes will be decided on the spot based on the total number of qualifiers.
+Teams work together to solve a surprise problem statement given by the coordinators.
+Only the Top 1 Team (or top teams depending on participation) survives.
+
+Phase 2: The Betrayal (Solo Final)
+The members of the winning team are immediately separated.
+They face off in a final, intense speed-coding challenge against each other.
+The single participant who solves it first wins the title.
+
+Rules & Regulations
+•
+•
+
+•
+
+Eligibility: Restricted to qualifiers from Round 2 (Code Sprint).
+Team Formation: Teams are formed strictly by random draw (chits). No pre-made teams
+or swapping members is allowed.
+The Task: The specific coding challenge will be revealed on the spot. It may involve
+algorithmic problems, debugging, or logic puzzles.
+Collaboration: During Phase 1, team members must collaborate. Divide and conquer is
+encouraged.
+The Switch: Once Phase 1 ends and the finalists are announced, communication
+between teammates is immediately prohibited.
+Resources: No internet, AI tools, or external drives allowed.
+
+•
+
+Submission:
+
+-
+
+Phase 1: One final submission per team.
+Phase 2: Individual submissions.
+
+•
+•
+•
+
+Fair Play: Sabotaging other teams or your own teammates (before the solo round) leads to
+immediate disqualification.
+
+Judging Criteria
+Phase 1: Team Evaluation
+Problem Completion: Did the team successfully solve the assigned on-spot task?
+Efficiency: (If multiple teams solve it) The team with the most optimized code or fastest
+submission wins.
+Team Synergy: Judges may observe how well the team coordinates (used as a tie-breaker).
+
+Phase 2: Solo Evaluation
+Speed: The absolute first person to submit the correct code wins.
+Accuracy: The code must pass all test cases on the first try.
+Survival: If no one solves the problem in the time limit, the code with the most logic completed
+wins.
+
+Registration Fee: ₹100 Per participant
+
+THE REVERSE CHALLENGE
+Synopsis
+Participants receive one or more output samples (patterns, numbers, strings, or results).
+Without seeing the original code, they must analyse the logic and generate a program in the
+given language that matches the output exactly. Solutions are judged on correctness, logic,
+efficiency, and code quality.
+
+Rules and Regulations
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+Participants will be given the expected output, and they must write code to generate
+that output.
+The programming language(s) allowed will be announced before the event.
+Only the provided system/compiler should be used during the competition.
+Internet access is strictly prohibited unless stated otherwise.
+The code must be written individually; team participation is not allowed unless
+specified.
+The generated output must exactly match the given output (including format).
+Partial output or incorrect formatting will lead to loss of marks.
+Participants must submit their code within the allotted time.
+Any form of copying from others will result in immediate disqualification.
+Use of pre-written code or external libraries is not allowed unless permitted.
+The decision of the judges will be final and binding.
+Any form of misconduct or violation of rules will lead to disqualification.
+Participants are responsible for saving and submitting their code properly.
+No extra time will be provided under any circumstances.
+
+Judging Criteria
+•
+•
+•
+•
+•
+•
+•
+•
+
+Correctness of Output– Program produces the exact required output
+Logic & Problem Understanding– Correct interpretation of the output pattern or result
+Code Efficiency– Optimal use of loops, conditions, and resources
+Code Quality & Readability– Clean, structured, and well-written code
+Language Constraints Compliance– Follows the given programming language rules
+Edge Case Handling– Works correctly for all valid inputs or variations
+Time Management– Completion within the allotted time
+Execution Without Errors– Code runs successfully without runtime or logical errors
+
+Registration Fee: ₹60 Per participant
+
+CATCH ME IF YOU CAN
+Synopsis
+CTF is an exciting problem-solving and treasure-hunt style event where participants or teams
+are given a series of clues to solve. The event begins with an initial clue, and each solved clue
+leads to the next challenge. The clues may involve technical questions, logical reasoning, or
+puzzle-based tasks. Participants must solve all clues in the correct sequence within the
+permitted area, without using the internet (unless allowed). The team or participant who
+successfully completes all the clues in the shortest time will be declared the winner.
+
+Rules and Regulation
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+Participants will be given the first clue at the start of the event.
+Each clue will lead to the next clue location or answer.
+Participants must find and solve each clue in sequence.
+Skipping clues is not allowed.
+The team/participant who finds all clues in the least time will be declared the winner.
+Time will be calculated from the moment the first clue is given.
+Clues may be technical, logical, or puzzle-based.
+Use of the internet is not allowed, unless mentioned by the organizers.
+Participants must not damage any property while searching for clues.
+Any form of misbehavior or cheating will lead to disqualification.
+Participants must stay within the allowed area of the event.
+Clues must not be shared with other teams.
+The decision of the judges and organizers will be final.
+
+Judging Criteria
+•
+•
+•
+•
+•
+
+Completion Time – Teams that solve all clues in the least amount of time will be ranked
+higher.
+Accuracy – Each clue must be solved correctly to proceed to the next one.
+Rule Compliance – Following event rules such as not skipping clues, staying within
+allowed areas, and avoiding internet usage.
+Fair Play – No sharing of clues with other teams and no cheating or misbehavior.
+Discipline & Conduct – Participants must not damage property or violate event
+guidelines.
+
+Registration Fee: ₹70 Per participant
+
+NON – TECHNICAL
+CORE MEMBERS
+Jay Mendapara (1ST Year) - 9909657666
+Disha Panjwani (2ND Year) - 9313322816
+Jenishrai Patel (3RD Year) - 9727894255
+Yasvi Chokhawala (4TH Year) – 9879122058
+
+FACULTY COORDINATOR
+Santosh Sir
+
+EVENT HEAD
+Raihan Ajmeri (2nd Year) - 9173045319
+
+COORDINATORS
+Rudra Patel (8401693584) - CanvaVerse
+Yash Patel (9904846205)
+Mayank Yadav (9274298846)
+Gulshan Tiwari (9130054768)- Rocketry
+Harsh (9714444860)
+Krish Panchal (8356033790)
+Rehan Multani (9998647247) – People Got Talent
+
+Srusti Patel (8511523125)- Timeless Tadka
+Bhupendra Sharma (8733090192) – Reel-a-twist
+
+Reel-a-Twist
+(Reel Making Competition)
+Rules and Regulations.
+• Participants can join individually or in the team of up to 3 members.
+• The reel must be filmed and edited on-site during the allotted time.
+• Use of personal devices (smartphones/tablets) is allowed, but pre-made reels or
+content will lead to disqualification.
+
+• The content must be family-friendly and free from offensive material.
+• Submission must be made to the organizers via Pen drive.
+• Time Limit: Participants will have 90–120 minutes to conceptualize, shoot, and edit their
+reel.
+
+• Duration: The reel should be 30-60 seconds long.
+• The reel will be judged on the basis of Creativity and originality, Humor and
+entertainment value, Execution and editing quality, Adherence to the twist/theme etc.
+
+How it works
+Random Themes/Challenges:
+a. Each participant/team will spin a "Reel-a-Twist Wheel" or pick a random card to get their
+challenge.
+b. Example twists:
+I. "Make a reel featuring a banana as a microphone."
+II. "Recreate a famous movie scene but as a comedy."
+III. "Include at least 5 different facial expressions in 30 seconds.
+Registration Fee: ₹100 Per team
+
+Timeless Tadka: Rewind & Caption
+(Creative Writing and Thinking)
+
+Rules and Regulations
+Round 1: Imagine History
+1. Participants can join individually or 2 members.
+2. Participants must creatively reinterpret or imagine an event.
+3. No offensive language, hate speech or inappropriate content is allowed.
+4. Presentations can be in the form of stories, artwork, roleplay, presentations or multimedia.
+5. Participants can choose or be assigned an event from a list provided by the organizers.
+6. Each participant/team will get 3-5 minutes to present their history.
+7. The presentation will be judged on the basis of Relevance to the theme, Creativity and
+originality, Humor and relatability, Presentation and delivery, etc.
+
+Round 2: Caption Contest
+1. After the Imagine History round, selected participants will be provided with a photograph,
+and they need to come up with an innovative, humorous or creative caption for the image.
+2. Captions must be original and no more than 20 Words.
+3. Submission must be made to the organizers via email or a designated sharing platform before
+the deadline.
+4. Captions should be light-hearted and in the spirit of fun.
+5. No offensive language, hate speech or inappropriate content is allowed.
+
+6. The presentation will be judged on the basis of Creativity and originality, Relevance to the
+photograph, Humor and wit, Clarity and conciseness, etc.
+
+Registration Fee: ₹70 Per team
+
+People Got Talent
+Synopsis
+People Got Talent is a platform for participants to showcase their unique skills, creativity, and
+confidence. From performances to entertaining acts, this event celebrates talent in all its forms.
+Come impress, entertain, and stand out!
+
+Rules & Regulations
+1.
+
+The event is open to individual participants only.
+
+2.
+
+Each participant will be given a fixed time limit to perform.
+
+3.
+
+Any form of offensive language, gestures, or inappropriate content is strictly
+prohibited.
+
+4.
+
+The performance must be suitable for all audiences.
+
+5.
+
+Props are allowed but must be arranged by the participant and approved
+beforehand if necessary.
+
+6.
+
+The decision of the judges will be final and binding.
+
+7.
+
+Participants must report on time; late entries may not be entertained.
+
+Format
+1.
+
+Participants will perform one by one on stage.
+
+2.
+
+Each performance must stay within the allotted time limit.
+
+3.
+
+Judges may interact with participants briefly after the performance.
+
+4.
+
+Shortlisted participants will be selected based on judges’ evaluation.
+
+Judging Criteria
+•
+
+Talent and skill level
+
+•
+
+Creativity and originality
+
+•
+
+Stage presence and confidence
+
+•
+
+Audience engagement
+
+•
+
+Overall performance impact
+
+Registration Fee: ₹40 Per participant
+
+CanvaVerse
+
+Synopsis
+The Canva Designing Challenge tests participants’ creativity and design skills under time
+pressure. Participants will receive a surprise design brief and must bring it to life using Canva.
+Think fast, design smart, and impress with visuals!
+
+Rules & Regulations
+1.
+
+The competition is open to individual participants only.
+
+2.
+
+The design must be created exclusively on Canva.
+
+3.
+
+Use of AI tools or AI-generated content is strictly prohibited.
+
+4.
+
+Participants will be given a surprise theme/design brief on the spot.
+
+5.
+
+The design must be completed within the given time limit.
+
+6.
+
+Pre-made templates or previously designed content are not allowed.
+
+7.
+
+Any form of plagiarism will lead to disqualification.
+
+8.
+
+Judges’ decision will be final.
+
+Format
+1.
+
+Participants will receive the design brief at the start of the event.
+
+2.
+
+A fixed time will be provided to complete the design.
+
+3.
+
+Designs must be submitted before the deadline.
+
+4.
+
+Submitted designs will be evaluated by the judges.
+
+Judging Criteria
+•
+
+Creativity and originality
+
+•
+
+Adherence to the given theme
+
+•
+
+Visual appeal and layout
+
+•
+
+Color usage and typography
+
+•
+
+Overall design quality
+
+Registration Fee: ₹60 Per participant
+
+ROCKETRY
+
+Synopsis
+Experience the excitement of engineering and physics by building and launching your own
+water-powered rocket! The Rocketry event offers students a safe, low-cost, and hands-on way to
+learn about forces, aerodynamics, and creativity in design. Compete against top minds from the
+region, push your ideas to new heights, and stand a chance to win exciting prizes and
+certificates.
+
+Construction Rules & Guidelines
+Build Your Own Rocket:
+• Construct a water rocket from scratch - kits or ready-made materials are strictly prohibited.
+• The design and construction must primarily be the participants' original work.
+• Use any building material except glass. Soft spikes are allowed only for aesthetics.
+Technical Requirements:
+• The rocket must fit the specified nozzle diameter of 2.5 cm (standard soda/hydration bottle).
+• The nozzle must be able to launch from various angles using the provided launch pad.
+• Only water may be used as the propellant—no other substances are allowed.
+Launch & Performance:
+• A pressure pump will be provided, with pressure set by judges as per your choice.
+• Models must be robust enough to withstand the pressure and achieve maximum altitude and
+distance.
+• Teams must present and launch their rocket at the event venue.
+
+Competition Format
+• Multiple rounds will be conducted.
+• Winners and runner-up’s will be determined based on maximum airtime and distance covered
+by their rocket.
+
+Participation Guidelines:
+• Each team must present their self-built model rocket at the venue.
+• Arrive early for registration and briefing.
+• Follow all safety instructions and event protocols.
+• Any discovery of ready-made kits or unsafe material will lead to disqualification.
+• Respect the venue, coordinators, and other participants at all times.
+
+Registration Fee: ₹70 Per participant
+
+ROBOTICS
+CORE MEMBERS
+Jay Mendapara (1ST Year) - 9909657666
+Disha Panjwani (2ND Year) - 9313322816
+Jenishrai Patel (3RD Year) - 9727894255
+Yasvi Chokhawala (4TH Year) – 9879122058
+
+FACULTY COORDINATOR
+Amit Sir
+
+EVENT HEAD
+Aditya Patil (2nd Year) - 7016765902
+
+COORDINATORS
+Mohan Parmar (9978751269)
+Samina Bilakhia (9624588523)
+Fenny Patel (7779050822)
+Vismaya Babu (8866142497)
+Bratick Bhowmick (6354117206) – Track Race
+Perin (7990920350) – Robo War
+Prit (7862924881) - Robo Soccer
+
+FOOTBOTS
+(ROBO SOCCER)
+Synopsis:
+The AMTICS-powered Robo Soccer Event features a unique format where two single robots
+from each team compete in a match, mimicking a football game. Each team can have up to two
+robots on the field at a time. The event provides a platform for showcasing robotics skills and
+strategy in a competitive environment. Participants are encouraged to bring their robots and
+compete for victory in this exciting Robo soccer & Robo league.
+
+Rules and Regulations:
+1. The first round will have two teams playing against each other.
+2. The number of Robots that each team can participate with will be "1".
+3. One game will go on for 8 minutes with a half break of 1.30 minutes.
+4. A standard soccer ball will be used.
+5. A team will be awarded one point for each goal scored by them.
+6. After the completion of the first round, the teams with maximum points will move to the
+semi – final round.
+7. In case of tie, a penalty round of 1 goal will be conducted and the team with higher number
+of goals wins.
+8. The rounds for finals will be announced on the spot.
+9. Minimum 1 player and maximum 10 players.
+10. Measurement of Robot should be 30*30cm. Attachment for soccer bot is 15*30cm length.
+
+11. Readymade bot is not allowed. Semi readymade is allowed. Base can be readymade but
+structure should be built by the team.
+
+Format:
+1. Tournament Format: The tournament will span up to two days and feature a direct
+elimination bracket, with matches played between the two Robots wherein the first game will
+go on for 8 minutes with a half break of 1.30 minutes.
+2. Participant Commitment: Participants are required to commit to participating in the entire
+tournament. Team compositions must remain unchanged throughout the duration of the event
+to uphold fairness. In the event that a participant becomes unable to continue, the
+administrator will advise on further steps, and the affected participant risks forfeiting their
+entire team. Such decisions rest solely with the administrator.
+3. Map Pool: Maps will be fixed for each match same as the football ground.
+
+TURBO TRACKS
+(TRACK RACE)
+Synopsis:
+The AMTICS-powered Robo Trace Race is an exhilarating competition where robots navigate a
+challenging track, showcasing their speed, agility, and precision. This event provides a platform
+for participants to demonstrate their robotics skills and strategy in a competitive environment.
+Participants are encouraged to bring their robots and compete for victory in this exciting robotic
+trace race!
+
+Rules and Regulations:
+1. The robot car should not be prepared at the time of the competition.
+2. The Robot car may be wired or wireless.
+3. The Robo car must be verified with the event coordinators 1 days prior to the event.
+4. No readjustment is allowed during the run.
+5. Minimum 1 player and maximum 10 players.
+6. Measurement of Robot should be 30*30cm.
+7. Readymade bot is not allowed. Semi readymade is allowed. Base can be readymade but
+structure should be built by the team.
+
+Format:
+1. Tournament Format: In the trace race, teams compete against each other one by one.
+The team with the fastest time wins the match, while the team with a slower time loses.
+2. Track will contain obstacles, balancing, control and speed.
+
+ROBO CLASH
+(ROBO WAR)
+Synopsis:
+The AMTICS-powered Robo War Event features a distinctive format where two single robots
+from each team engage in combat, resembling a battlefield scenario. Each team is allowed to
+deploy only one robot at once. This event serves as a stage for exhibiting robotics prowess and
+tactical acumen in a fiercely competitive setting. Participants are urged to bring their formidable
+robots and vie for supremacy in this exhilarating Robo
+war and Robo league.
+
+Rules and Regulations:
+1. The robot car should not be prepared at the time of the competition.
+2. The Robo car must be verified with the event coordinators 1 days prior to the event.
+3. The Robot car may be wired or wireless.
+4. No readjustment is allowed during the run.
+5. Measurement of Robot should be 30*30cm.
+6. Readymade bot is not allowed. Semi readymade is allowed. Base can be readymade but
+structure should be built by the team.
+7. Gadgets like cutters, flamethrowers, Electric shockers are not allowed
+8.Damage caused is not our responsibility.
+9. Minimum 1 player and Maximum 10 players.
+
+Match Duration:
+1. Matches will consist of 5min of active fight time exclusive of any time-outs.
+2. The matches will be one on one format i.e. only one robot will fight at a time.
+3. Hence, it is not binding but advisable to keep battery capacity, power usage and machine
+defenses such that they can sustain a 5-minute fight.
+
+Arena Specifications:
+1. The battle area available to the robots for motion during the match is inside the Nylon net.
+2. The arena is protected by Nylon Net
+3. The Out-to-out dimension of the arena will be 4ft x 4ft x 2.5ft (l*b*h).
+4. These figures/parameters are subject to change. The maximum pressure limit may be
+upgraded depending on the equipment available. The arena size is also subject to infrastructure.
+
+Winning Criteria:
+1. A robot is declared victorious if its opponent is immobilized or pinned for 1 sec longer than
+get a point.
+2. Pinning an opponent doesn’t only involve lifting it from the ground but also rendering it
+immobile.
+3. A robot will be declared immobile if it can’t display the linear motion of at least one inch in a
+period of losses.
+4. A robot deemed unsafe by the judges after the motion has begun will be disqualified and,
+therefore, declared the loser. The motor will be immediately halted, and the opponents will be
+awarded a win.
+5. If a bot gets stuck inside the area due to deformation of the arena itself, the timer will be
+stopped, and the bot will be released by the safest means.
+
+6. Robots can't win by lifting their opponent. Organizers will allow lifting for a maximum of 20
+seconds, and then the attacking robot will be instructed to release the opponent. Points will be
+awarded accordingly.
+
+Format:
+Map Pool: Maps will be fixed for each
+
+Points System for Each Competition: 1st - 10
+2nd- 7
+3rd - 5
+4th - 3
+5th - 1
+Total of 3 events points will be calculated according to their positions
+per events secured.
+Registration Fee for all three events together - ₹1000 per team
+
+E-SPORTS
+CORE MEMBERS
+Jay Mendapara (1ST Year) - 9909657666
+Disha Panjwani (2ND Year) - 9313322816
+Jenishrai Patel (3RD Year) - 9727894255
+Yasvi Chokhawala (4TH Year) - 9879122058
+
+FACULTY COORDINATOR
+Aakash Sir
+
+EVENT HEAD
+Mann Sindhi (2nd Year) - 6355207034
+
+COORDINATORS
+Nandini Prajapati (9374513056)
+Srishanth Gudla (9924133369) – BGMI
+Prachi Gawde (8530528798)
+Ibrahim Shaikh (9409907806) - Free Fire
+Nitanshi Verma (8320203625)
+
+Valorant
+Synopsis:
+The AMTICS-powered Valorant Immortal Clutch is an open tournament welcoming gaming
+enthusiast. Teams will consist of five players, each called a "Participant," forming a "Team"
+together. One player will be chosen as captain, acting as the main contact person for the
+tournament's organizers.
+
+Rules and Format:
+•Team Size: 5 players (+1 substitute optional)
+•Mode: Standard Matches
+•Format: Knockouts
+•Map: Decided by organizers / Map voting if time permits
+•Match Type:
+Early rounds: Best of 1
+Semi-Final & Final: Best of 3
+•Cheats / Third-party software: Strictly banned
+•Disconnect Rule:
+Before Round 3 → Rematch
+After Round 3 → Match continues
+•Winning Criteria: Match win
+
+Eligibility:
+1. Entry is open for above 16-year-old.
+2. Each team has to be maximum of 5 members. Any institution
+(School/College/University/Vocational Institution) or group of students (within defined age
+group).
+3. Participants must present with their laptop(only) at the venue.
+
+Registration Fee: ₹500 per team
+Prizes: To be announced!
+
+FREE FIRE
+Synopsis:
+Free Fire is a player-versus-player shooter game where up to 48 participants engage in a battle
+royale scenario. In this intense last-man-standing deathmatch, players compete to be the sole
+survivor. Participants can enter as a squad of up to four members. The event features three
+rounds of gameplay across various maps like Bermuda, Kalahari, and Purgatory. Victors will be
+determined based on their standings on the points table, emphasizing strategic gameplay and
+consistent performance throughout the competition.
+
+Rules And Format:
+•Team Size: Squad (4 players)
+•Mode: Custom Room
+•Maps: Bermuda / Purgatory
+•Matches: 6-8 matches
+•Scoring: It Would Be a Table
+•Point System: (Placement points + Kill points)
+•Characters / Skills: Allowed
+•Use of hacks: Immediate disqualification
+•Winning Criteria: 1st Team on the Points Table
+
+Eligibility:
+1. Entry is open for above 16-year-old.
+2. Each team must be a maximum of 4 members. Any institution
+(School/College/University/Vocational Institution) or group of students (within defined age
+group).
+
+Registration Fee: ₹200 per team
+Note: The number of rounds may change based on the number of participants.
+
+BGMI
+Synopsis:
+Battlegrounds Mobile India, commonly abbreviated as BGMI, stands as a player-versus- player
+shooter game wherein a maximum of 100 participants engages in a battle royale scenario. This
+format entails a large-scale last man standing deathmatch, where players vie to emerge as the
+sole survivor. Participants have the option to enter the fray as a squad comprising up to four
+members. The event is structured to encompass three rounds of gameplay, set across the terrains
+of Erangel, Sanhok, Miramar and Vikendi. Determination of victors will be based upon the
+standings reflected in the points table, thus emphasizing
+strategic gameplay and consistent performance throughout the competition.
+
+Rules And Format:
+•Team Size: Squad (4 players)
+•Mode: Custom Room – TPP
+•Maps: Erangel / Sanhok (organizer decision)
+•Matches: 6-8 Matches
+•Scoring System: It Would Be a Table Point System (Rank Points + Kills)
+•Emulators: Not allowed
+•Teaming / Glitches: Strictly prohibited
+•Winning Criteria: 1st Team on the Points Table
+
+Eligibility:
+1. Entry is open for above 16-year-old.
+2. Each team must be a maximum of 4 members. Any institution
+(School/College/University/Vocational Institution) or group of students (within defined age
+group).
+
+Registration Fee: ₹300 per team
+Note: The number of rounds may be changed based on participants.
+
+FUN ZONE EVENTS
+CORE MEMBERS
+Jay Mendapara (1ST Year) - 9909657666
+Disha Panjwani (2ND Year) - 9313322816
+Jenishrai Patel (3RD Year) - 9727894255
+Yasvi Chokhawala (4TH Year) – 9879122058
+
+FACULTY COORDINATOR
+Nivedita Mam
+
+EVENT HEAD
+Priyanshu Kamani (3rd Year) - 8758257404
+
+COORDINATORS
+Rahil Mevar (916353404224) – Traitors
+Nandanita Upadhyay (919824962501) - IPL
+Ayush More (918511362720) - Roadies
+
+Event Name: IPL Royale: Battle of the Bidders
+(Pre-Registration Required)
+
+Synopsis:
+In this thrilling team-based event, participants step into the shoes of IPL franchise owners,
+strategically bidding on players to form the strongest team within a budget of 50 Crore
+Points. The auction will introduce an exciting blind bidding phase once the price crosses 9
+Crore Points. Each player has a different rating, and the team with the highest overall
+rating will emerge as the winner. A twist will be revealed during the live event to add
+suspense!
+
+Objective:
+Participants must use their strategic skills to bid, balance their budget, and form a 5member team (including at least one female player). The team with the highest
+cumulative player ratings at the end of the auction wins the contest and takes home the
+grand prize.
+
+Rules and Regulations:
+1. Team Composition:
+1. Individual / Team both can participate
+2. Each team must have exactly 5 members.
+3. Teams are formed on a first-come, first-serve basis due to limited slots.
+2. Budget Management:
+1. Every team will be given 50 Crore Points to bid on players.
+2. Teams must strategically allocate funds to build a balanced squad.
+3. Exceeding the budget will lead to penalties or disqualification.
+3. Bidding Process:
+1. The auctioneer will announce players one by one.
+2. Once bidding for a player reaches 9 Crore Points, the game enters a
+blind bidding phase, where teams must secretly submit their final
+bid.
+4. Player Ratings & Winner Selection:
+1. Each player has a predefined rating based on their virtual performance.
+2. The team with the highest combined rating after the auction wins the contest.
+
+3. In case of a tie, a mystery twist will determine the final winner.
+5. Prize & Rewards:
+1. The winning team receives exciting prize.
+
+Registration Fee: ₹200 per team
+Prizes: Dive into the joyful world of "IPL Royale: Battle of Bidders" and win exciting
+rewards for your Strategies
+
+Event Name: Roadies Challenge
+Synopsis:
+Step into the ultimate test of strength, strategy, and teamwork with Roadies Challenge! This game is
+packed with a series of physical challenges, mental puzzles, problem-solving activities, and creative
+tasks. Each round pushes participants to their limits, testing their endurance, intelligence, and team
+coordination.
+
+Objective:
+Participants will form teams and compete through multiple rounds, each containing a mix of tasks that
+challenge both mind and body. Teams will strategize, collaborate, and battle through eliminations to
+emerge as the ultimate Roadies Champions!
+
+Rules and Regulations:
+Team Formation
+•
+•
+
+Participation is open for both solo players and teams.
+Team size: 5–6 members per team.
+
+Game Structure
+•
+•
+
+The competition will consist of 5–6 rounds.
+Each round will include a combination of different task types to test overall performance.
+
+Round Categories
+Every round may include one or more of the following:
+• Physical Tasks
+Obstacle courses, endurance challenges, strength-based activities, relay tasks, etc.
+• Mental Tasks
+Logical puzzles, quizzes, riddles, problem-solving challenges.
+• Teamwork Tasks
+Coordination-based activities, group challenges, collaboration tasks, trust-based games.
+• Creative Tasks
+
+Skits, role plays, poster making, short performances, or on-the-spot creative challenges.
+
+Elimination & Scoring
+•
+•
+•
+
+Teams or individuals may be eliminated after specific rounds based on performance.
+Some rounds may be vote-outs or judge-based eliminations.
+Final winners will be decided based on round victories or cumulative performance.
+
+Winning Criteria
+•
+
+The participant or team that wins the final round or scores the highest overall points will be
+declared the Roadies Challenge Champion.
+
+Registration Fee: ₹30 per team
+
+Event Name: The “Traitors” Game
+Synopsis:
+The Traitors – City Mystery Game is a strategic, role-based deduction game inspired by classic social
+deception formats. Participants are secretly assigned roles as Killers, Doctors, or Citizens, while a Speaker
+(volunteer) moderates the game. The game revolves around night and day phases, where hidden actions and
+open discussions determine the survival of players. The game encourages logical thinking, communication,
+teamwork, and strategic decision-making.
+
+Objective:
+The objective of the game is to identify and eliminate all the Killers through discussion and voting, while
+Killers aim to eliminate all other participants without being identified. Doctors attempt to protect players
+and prevent eliminations during the night phase.
+
+Roles Involved:
+• Killers: 3–4 participants
+• Doctors: 1–2 participants
+• Citizens: Remaining participants
+• Speaker: One volunteer who controls the flow of the game
+
+Rules and Regulations:
+
+• All roles are assigned secretly at the beginning of the game.
+• The Speaker will announce different phases of the game and participants must act accordingly.
+
+Night Phase:
+• When the Speaker announces, “City Sleep,” all participants must close their eyes.
+• The Speaker will then announce, “Killers Awake.”
+• All Killers will silently open their eyes and, through mutual signals, select one
+participant to eliminate.
+• After the Killers close their eyes, the Speaker will announce “Doctors Awake.”
+• Doctors will silently select one participant to save.
+
+• The selected participant by the Doctors may be anyone, including a Killer or the target
+chosen by the Killers.
+
+Day Phase:
+• The Speaker will announce “City Awake,” and all participants open their eyes.
+• The Speaker will reveal if a participant has been eliminated during the night (unless
+saved by the Doctors).
+• All participants are given exactly two minutes to discuss and analyze who they believe
+the Killers are.
+• After discussion, participants must vote for one suspected Killer.
+
+Elimination Rules:
+• The participant targeted by the Killers will be eliminated unless saved by the Doctors.
+• The participant who receives the highest number of votes during the day phase
+will also be eliminated unless saved by the Doctors.
+• Eliminated participants must exit the game silently and are not allowed to reveal their
+roles.
+
+Winning Conditions:
+• Citizens & Doctors win if all Killers are eliminated.
+• Killers win if they outnumber the remaining participants.
+
+General Guidelines:
+• No communication is allowed during the night phase.
+• Participants must always follow the Speaker’s instructions.
+• Any form of cheating, signaling outside assigned phases, or role disclosure will
+result in immediate disqualification.
+Registration Fee: ₹30 per person
+
+

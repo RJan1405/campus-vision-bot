@@ -40,3 +40,14 @@ export interface PlacementEntry {
   roles: string;
   date: string;
 }
+
+export interface StudentRecord {
+  srNo: string;
+  email: string;
+  name: string;
+  enrollmentNo: string;
+  branch: string;
+  elective4: string;
+  elective2: string;
+  industrialPractice: string;
+}

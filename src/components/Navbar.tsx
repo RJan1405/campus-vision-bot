@@ -2,6 +2,7 @@ import { Link, useLocation } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
 import { Menu, X, Bot, Home, LayoutDashboard, GraduationCap, BookOpen, Newspaper, Trophy, Filter, GitCompare, MessageSquare } from "lucide-react";
+import ThemeToggle from "./ThemeToggle";
 
 const navItems = [
   { path: "/", label: "Home", icon: Home },
@@ -36,22 +37,25 @@ export default function Navbar() {
               <Link
                 key={item.path}
                 to={item.path}
-                className={`px-3 py-2 rounded-lg text-sm font-medium transition-all duration-200 flex items-center gap-1.5 ${
-                  location.pathname === item.path
+                className={`px-3 py-2 rounded-lg text-sm font-medium transition-all duration-200 flex items-center gap-1.5 ${location.pathname === item.path
                     ? "bg-primary/15 text-primary neon-glow"
                     : "text-muted-foreground hover:text-foreground hover:bg-secondary"
-                }`}
+                  }`}
               >
                 <item.icon className="w-4 h-4" />
                 {item.label}
               </Link>
             ))}
+            <ThemeToggle />
           </div>
 
           {/* Mobile toggle */}
-          <button onClick={() => setOpen(!open)} className="lg:hidden p-2 rounded-lg hover:bg-secondary text-foreground">
-            {open ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
-          </button>
+          <div className="lg:hidden flex items-center gap-2">
+            <ThemeToggle />
+            <button onClick={() => setOpen(!open)} className="p-2 rounded-lg hover:bg-secondary text-foreground">
+              {open ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+            </button>
+          </div>
         </div>
       </div>
 
@@ -70,11 +74,10 @@ export default function Navbar() {
                   key={item.path}
                   to={item.path}
                   onClick={() => setOpen(false)}
-                  className={`flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-all ${
-                    location.pathname === item.path
+                  className={`flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-all ${location.pathname === item.path
                       ? "bg-primary/15 text-primary"
                       : "text-muted-foreground hover:text-foreground hover:bg-secondary"
-                  }`}
+                    }`}
                 >
                   <item.icon className="w-4 h-4" />
                   {item.label}
